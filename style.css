@@ -41,3 +41,29 @@ body {
     color: black;
     text-align: center;
 }
+
+.side_title_end {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 80px;
+    margin: 15vh auto;
+}
+
+.first-video {
+    display: flex;
+    margin: 0 auto;
+    width: 60vw;
+    justify-content: center;
+    height: auto;
+}
+
+.second-video {
+    display: flex;
+    margin: 10vh auto;
+    width: 60vw;
+    justify-content: center;
+    height: auto;
+}

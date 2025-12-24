@@ -1,13 +1,12 @@
-.body {
+body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
-    padding: 0;
     width: 100vw;
+    overflow-x: hidden;
 }
 
 .title {
-    margin-top: 25vh;
     text-align: center;
     font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -22,12 +21,23 @@
 }
 
 .title-image {
-    z-index: -1;
-    margin: 0 auto;
-    width: 100vw;
-    max-height: auto;
-    position: fixed;
-    display:block;
-    top: 0;
-    left: 0;
+    background-image: url("Christmas_Angle.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: 50vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.side_title {
+    font-family: Calibri;
+    font-size: 25px;
+    color: black;
+    text-align: center;
 }

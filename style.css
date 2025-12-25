@@ -4,6 +4,7 @@ body {
     margin: 0;
     width: 100vw;
     overflow-x: hidden;
+    background-color: black;
 }
 
 .title {
@@ -38,16 +39,16 @@ body {
 .side_title {
     font-family: Calibri;
     font-size: 25px;
-    color: black;
+    color: white;
     text-align: center;
 }
 
 .side_title_end {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 25px;
-    color: black;
+    color: white;
     text-align: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
     padding-bottom: 80px;
     margin: 15vh auto;
 }

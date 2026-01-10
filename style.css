@@ -1,8 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    width: 100vw;
     overflow-x: hidden;
+    padding-top: 70px;
 }
 
 .header {
@@ -21,36 +21,58 @@ body {
 
 .left-section {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     flex-direction: row;
     align-items: center;
     min-width: 100px;
     flex: 1;
     gap: 25px;
     font-size: 10px;
+    padding-left: 80px;
+}
+
+.left-section h1, i {
+    cursor: pointer;
 }
 
 .middle-section {
     display: flex;
+    justify-content: center;
     flex: 1;
     font-family: Arial, sans-serif, Helvetica;
     font-size: 10px;
     font-weight: 200;
     gap: 75px;
+    transition: background-color 0.15s, color 0.15s;
 }
 
-.middle-section h1 {
+.middle-section button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 750;
+}
+
+.middle-section button:hover {
     cursor: pointer;
+    background-color: black;
+    color: aliceblue;
 }
 
 .right-section {
     display: flex;
-    justify-content: center;
+    justify-content: end;
     flex-direction: row;
     align-items: center;
     min-width: 100px;
     flex: 0.7;
     gap: 25px;
+    padding-right: 75px;
 }
 
 .pdp {
@@ -64,10 +86,13 @@ body {
     font-weight: bolder;
 }
 
-.main {
-    margin-top: 71px;
+.right-section h1, img {
+    cursor: pointer;
+}
+
+.main-2023 {
     width: 100%;
-    height: 100vh;
+    height: 125vh;
     background-color: black;
     z-index: 1;
     display: flex;
@@ -75,13 +100,74 @@ body {
 }
 
 .video-2023 {
-    margin-top: 20vh;
-    width: 50%;
-    height: 50%;
+    margin-top: 15vh;
+}
+
+.video-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-direction: column;
+    width: 800px;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.video-title h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.video {
+    width: 800px;
+    height: 430px;
+    box-shadow: 0px 0px 25px rgba(255, 255, 255, 1); 
+    display: flex;
+    align-items: stretch;
     position: relative;
+    margin-bottom: 100px;
 }
 
 .video-2023 video {
     width: 100%;
-    height: 100%;
+    height: 428.500px;
+}
+
+.video-description {
+    text-align: center;
+    margin-bottom: 10px;
+    flex-direction: column;
+    width: 800px;
+    font-size: 9px;
+    font-weight: 200;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.main-2024 {
+    width: 100%;
+    height: 150vh;
+    background-color: black;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.main-2024 .video-2024 {
+    margin-top: 30vh;
+}
+
+.main-2024 .video {
+    width: 800px;
+    height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-2024 video {
+    width: 800px;
+    height: 430px;
 }
